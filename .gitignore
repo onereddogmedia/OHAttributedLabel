@@ -1,14 +1,20 @@
-# xcode noise
+# Exclude generate version file
+InfoPlist.h
+
+.DS_Store
+*.swp
+*~.nib
+
 build/
-*~.nib/
+
 *.pbxuser
 *.perspective
 *.perspectivev3
+
 *.mode1v3
 *.mode2v3
 
-# old school
-.svn
-
-# osx noise
-.DS_Store
+Documentation/Generated
+doxygenWarnings.txt
+*.xcodeproj/xcuserdata/*.xcuserdatad
+*.xcodeproj/project.xcworkspace/xcuserdata/*.xcuserdatad
